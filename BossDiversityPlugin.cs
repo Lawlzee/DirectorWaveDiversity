@@ -101,7 +101,10 @@ namespace BossDiversity
             for (int index = 0; index < self.bossMemoryCount; ++index)
             {
                 BossGroup.BossMemory memory = self.bossMemories[index];
-                if (memory.cachedBody.healthComponent.alive)
+
+                if (memory.cachedBody 
+                    && memory.cachedBody.healthComponent
+                    && memory.cachedBody.healthComponent.alive)
                 {
                     self.bestObservedName = Util.GetBestBodyName(memory.cachedBody.gameObject);
                     self.bestObservedSubtitle = memory.cachedBody.GetSubtitle();
