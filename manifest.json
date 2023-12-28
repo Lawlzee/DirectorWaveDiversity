@@ -3,7 +3,7 @@
   "version_number": "1.0.0",
   "website_url": "https://github.com/Lawlzee/DirectorWaveDiversity",
   "displayName": "BossDiversity",
-  "description": "",
+  "description": "Multiple types of bosses can now spawn in a teleporter event.",
   "dependencies": [
     "bbepis-BepInExPack-5.4.2108",
     "RiskofThunder-HookGenPatcher-1.2.3",
