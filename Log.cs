@@ -1,6 +1,6 @@
 ﻿using BepInEx.Logging;
 
-namespace DirectorWaveDiversity
+namespace BossDiversity
 {
     internal static class Log
     {

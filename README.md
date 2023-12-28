@@ -1,1 +1,1 @@
-# DirectorWaveDiversity
+# BossDiversity

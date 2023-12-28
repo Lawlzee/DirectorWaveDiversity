@@ -6,15 +6,15 @@ using RoR2;
 using UnityEngine;
 using System.IO;
 
-namespace DirectorWaveDiversity
+namespace BossDiversity
 {
     [BepInDependency("com.rune580.riskofoptions")]
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
-    public class DirectorWaveDiversityPlugin : BaseUnityPlugin
+    public class BossDiversityPlugin : BaseUnityPlugin
     {
-        public const string PluginGUID = "Lawlzee.DirectorWaveDiversity";
+        public const string PluginGUID = "Lawlzee.BossDiversity";
         public const string PluginAuthor = "Lawlzee";
-        public const string PluginName = "DirectorWaveDiversity";
+        public const string PluginName = "BossDiversity";
         public const string PluginVersion = "1.0.0";
 
         private bool _isBossWave;

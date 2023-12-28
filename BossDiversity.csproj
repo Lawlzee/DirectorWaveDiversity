@@ -4,8 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>preview</LangVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <OutDir Condition="'$(Configuration)' == 'Debug'">C:\Users\Lawlzee\AppData\Roaming\r2modmanPlus-local\RiskOfRain2\profiles\ModDev\BepInEx\plugins\DirectorWaveDiversity</OutDir>
-    <OutDir Condition="'$(Configuration)' == 'Release'">bin/Release/DirectorWaveDiversity</OutDir>
+    <OutDir Condition="'$(Configuration)' == 'Debug'">C:\Users\Lawlzee\AppData\Roaming\r2modmanPlus-local\RiskOfRain2\profiles\ModDev\BepInEx\plugins\BossDiversity</OutDir>
+    <OutDir Condition="'$(Configuration)' == 'Release'">bin/Release/BossDiversity</OutDir>
     <DebugSymbols>false</DebugSymbols>
     <DebugType>None</DebugType>
     <NoWarn>Publicizer001</NoWarn>
